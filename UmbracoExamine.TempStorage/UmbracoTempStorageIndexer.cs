@@ -35,7 +35,7 @@ namespace UmbracoExamine.TempStorage
                 if (config["syncStorage"] != null)
                 {
                     var attempt = config["syncStorage"].TryConvertTo<bool>();
-                    if (attempt)
+                    if (attempt.Success)
                     {
                         _syncStorage = attempt.Result;
                     }
