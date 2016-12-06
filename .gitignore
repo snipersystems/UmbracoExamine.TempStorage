@@ -12,3 +12,4 @@ UmbracoExamine.TempStorage.Tests/obj/*
 UmbracoExamine.TempStorage/obj/*
 UmbracoExamine.TempStorage/bin/*
 UmbracoExamine.TempStorage/packages/*
+UmbracoExamine.VariableStorage/.nuget/
